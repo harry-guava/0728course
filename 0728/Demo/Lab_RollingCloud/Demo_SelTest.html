@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+    p
+    {
+        color: blue;
+    }
+    p.red
+    {
+        color:red;
+    }
+    #green
+    {
+        color:green;
+    }
+    div p
+    {
+        color:black;
+    }
+    .em
+    {
+        font-style:italic;
+    }
+    
+    </style>
+</head>
+<body>
+    <p class="red">This is paragraph 1</p>
+    <p class="red">This is paragraph 2</p>
+    <p id="green">This is paragraph 3</p>
+    <p class="red" id="green">This is paragraph 4</p>
+    <p>This is paragraph 5</p>
+    <p>This is paragraph 6</p>
+    <div>
+    <p class="red em">This is paragraph 7</p>
+    <p class="red em">This is paragraph 8</p>
+    </div>
+</body>
+</html>
